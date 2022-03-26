@@ -3,7 +3,6 @@ if not status_ok then
 	return
 end
 
-
 require("hya.lsp.lsp-installer")
 require("hya.lsp.handlers").setup()
-require "hya.lsp.null-ls"
+require("hya.lsp.null-ls")

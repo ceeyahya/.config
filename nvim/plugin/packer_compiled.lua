@@ -216,11 +216,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/hya/.local/share/nvim/site/pack/packer/start/vim-bbye",
     url = "https://github.com/moll/vim-bbye"
-  },
-  ["vim-solidity"] = {
-    loaded = true,
-    path = "/Users/hya/.local/share/nvim/site/pack/packer/start/vim-solidity",
-    url = "https://github.com/tomlion/vim-solidity"
   }
 }
 

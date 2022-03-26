@@ -13,6 +13,7 @@ null_ls.setup {
   sources = {
     formatting.gofmt,
     formatting.goimports,
+    formatting.rustfmt,
     formatting.prettier.with { extra_args = { "--trailing-comma all", "--single-quote", "--jsx-single-quote", "--use-tabs", "--arrow-parens always" } },
     formatting.black.with { extra_args = { "--fast" } },
     formatting.stylua,
