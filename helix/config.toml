@@ -1,0 +1,18 @@
+theme = 'norddeep'
+
+[editor]
+middle-click-paste = false
+line-number = 'relative'
+
+[editor.cursor-shape]
+normal = 'block'
+insert = 'bar'
+select = 'block'
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
