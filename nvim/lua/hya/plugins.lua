@@ -96,6 +96,9 @@ return packer.startup(function(use)
 		},
 	})
 
+  -- Latex
+  use "lervag/vimtex"
+
 	-- Buffer Line
 	use("akinsho/bufferline.nvim")
 	use("moll/vim-bbye")
